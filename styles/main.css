@@ -1,0 +1,390 @@
+/* LIGHT MODE */
+@import url(/src/fonts/css/all.css);
+@import url(/src/fonts/css/all.css);
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #212121;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+
+/* Formatting */
+/* gray bg inside windows */
+.top-container, .left-container {
+  background-color: #212121;
+}
+
+/* TOP CONTAINER */
+.box1, .box2, .box3 {
+  height: 40px;
+}
+
+/* uppermost left box */
+.box1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box1 span {
+  margin: none;
+}
+
+.header-icon i {
+  padding: 16px 20px;
+  height: 20px;
+}
+
+.logo-main img {
+  padding-left: 10px;
+  height: 20px;
+}
+
+/* MAIN GRID */
+.main-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 5% 95%;
+  grid-template-areas: "b1 b1" "b2 b3";
+}
+
+.top-container {
+  grid-area: b1;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  width: 99%;
+}
+
+.left-container {
+  grid-area: b2;
+}
+
+.right-container {
+  grid-area: b3;
+  display: grid;
+  grid-template-rows: 3fr 2fr 0.5fr 1fr 4fr;
+  height: 100vh;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.social-media {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box8 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+}
+.box8 img {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.subscribe-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box9 nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.box8 {
+  width: 1150px;
+  background-color: #191919;
+  display: grid;
+  margin: none;
+  padding: none;
+  padding-left: 100px;
+}
+.box8 img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+.box8 h2 {
+  padding-top: 20px;
+}
+.box8 p {
+  margin-top: -15px;
+  font-size: 15px;
+  color: #808080;
+}
+
+.subscribe-button {
+  width: 655px;
+  margin-right: 80px;
+}
+.subscribe-button button {
+  width: 150px;
+  height: 50px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.box9 {
+  background-color: #191919;
+  height: 40px;
+  width: 1250px;
+}
+.box9 nav {
+  list-style-type: none;
+  margin: none 100px;
+  margin-left: 100px;
+  color: grey;
+  font-size: 13px;
+  width: 1000px;
+}
+.box9 li {
+  display: block;
+  width: 10%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  color: white;
+}
+.active:after {
+  margin-top: 20%;
+  display: block;
+  content: "";
+  background-color: #aaaaaa;
+}
+
+.right-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* banner */
+.box7 {
+  height: 320px;
+}
+.box7 img {
+  width: 1252px;
+  margin: none;
+  padding: none;
+  z-index: 0;
+}
+
+.left-nav {
+  overflow-y: auto;
+}
+
+.box4 {
+  margin: 20px 0;
+}
+.box4 div {
+  padding: 15px;
+}
+.box4 i {
+  margin-right: 15px;
+  color: #909090;
+}
+.box4 span:nth-child(2) {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.box5 {
+  margin: 20px 0;
+}
+.box5 div {
+  padding: 15px;
+}
+.box5 i {
+  margin-right: 15px;
+  color: #909090;
+}
+.box5 span:nth-child(2) {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.box6 div {
+  padding: 15px;
+}
+
+i {
+  margin-right: 15px;
+  color: #909090;
+}
+
+> div:first-of-type {
+  color: #909090;
+  font-size: 13px;
+}
+
+.line-divider {
+  background-color: rgba(128, 128, 128, 0.3);
+  height: 1px;
+  width: 260px;
+}
+
+.box2 input {
+  background-color: #0a0a0a;
+  border: 0.1px #313131 solid;
+  border-radius: 3px;
+  color: #FFFFFF;
+  width: 500px;
+  height: 30px;
+}
+.box2 input:focus {
+  outline: none;
+}
+.box2 .search-icon {
+  background-color: #313131;
+  color: #909090;
+  height: 30px;
+  width: 70px;
+}
+
+.social-media {
+  width: 200px;
+  height: 20px;
+  padding: 20px;
+  background-color: #191919;
+  z-index: 1;
+  transform: translate(410%, -120%);
+}
+.social-media a {
+  color: #FFFFFF;
+}
+
+.box10 {
+  margin-left: 100px;
+  margin-top: 30px;
+  color: #808080;
+  font-size: 13px;
+}
+
+/* videos */
+.box11 {
+  margin-top: 20px;
+  margin-left: 100px;
+  padding-right: 100px;
+}
+.box11 div {
+  width: fit-content;
+}
+.box11 img {
+  width: 185px;
+  height: 110px;
+}
+.box11 p {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 190px;
+  height: 2.5em;
+}
+.box11 h5 {
+  margin-top: -10px;
+  font-size: 12px;
+  color: #808080;
+  font-weight: 300;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #303030;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=main.css.map */
