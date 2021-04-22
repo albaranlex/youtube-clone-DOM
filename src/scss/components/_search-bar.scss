@@ -1,0 +1,25 @@
+.box2 {
+    input {
+        background-color: #0a0a0a;
+        border: 0.1px #313131 solid;
+        border-radius: 3px;
+        color: $active-text;
+        width: 500px;
+        height: 30px;
+        
+        &:focus {
+          outline:none;
+  }
+    
+
+  }
+
+  .search-icon {
+    background-color: #313131;
+    color: $icon;
+    height: 30px;
+    width: 70px;
+  }
+}  
+  
+  

@@ -1,0 +1,53 @@
+.left-nav {
+    overflow-y: auto;
+  }
+
+.box4 {
+    margin: 20px 0;
+  div {
+    padding: 15px
+  } 
+  i {
+    margin-right: 15px;
+    color: $outside-nav-bg;
+  }
+  span:nth-child(2) {
+    font-size: 14px;
+    color: $active-text;
+    
+  }
+}
+
+.box5 {
+    margin: 20px 0;
+  div {
+    padding: 15px
+  }
+  i {
+    margin-right: 15px;
+    color: $icon;
+  }
+  span:nth-child(2) {
+    font-size: 14px;
+    color: $active-text;
+    
+  }
+}
+
+.box6 div{
+    padding: 15px;
+  }
+  i {
+    margin-right: 15px;
+    color: #909090;
+  }
+  > div:first-of-type {
+    color: #909090;
+    font-size: 13px;
+  }
+
+.line-divider {
+    background-color: rgba(128, 128, 128, 0.3);
+    height: 1px;
+    width: 260px;
+  };

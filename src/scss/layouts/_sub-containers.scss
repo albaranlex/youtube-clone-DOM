@@ -1,0 +1,51 @@
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.social-media {
+  position: static;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box8 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr;
+  
+  img {
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+}
+
+.subscribe-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.box9 nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}

@@ -1,0 +1,38 @@
+.box10 {
+    margin-left: 100px;
+    margin-top: 30px;
+    color: $inactive-text;
+    font-size: 13px;
+  }
+  
+  /* videos */
+  .box11 {
+    margin-top: 20px;
+    margin-left: 100px;
+    padding-right: 100px;
+  
+  div {
+    width: fit-content;
+  }
+  
+  img {
+    width: 185px;
+    height: 110px;
+  }
+  p {
+    margin-top: 2px;
+    font-size: 13px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 190px; 
+    height: 2.5em; 
+  }
+  
+  h5 {
+    margin-top: -10px;
+    font-size: 12px;
+    color: $inactive-text;
+    font-weight: 300;
+  }
+}

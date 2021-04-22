@@ -1,0 +1,12 @@
+.social-media {
+        width: 200px;
+        height: 20px;
+        padding: 20px;
+        background-color: $header-bg; 
+        z-index: 1;
+        transform: translate(410%, -120%);
+    
+    a {
+        color: $active-text;
+    }
+}
